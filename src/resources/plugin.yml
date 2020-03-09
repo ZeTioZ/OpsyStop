@@ -1,0 +1,8 @@
+name: OpsyStop
+version: 0.0.1
+author: ZeTioZ
+main: fr.zetioz.opsystop
+commands:
+  opsystop:
+    aliases: [ostop, stop]
+    description: Main OpsyStop command
