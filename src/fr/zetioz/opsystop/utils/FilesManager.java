@@ -11,14 +11,11 @@ import fr.zetioz.opsystop.OpsyStopMain;
 
 public class FilesManager
 {
-	
-	private OpsyStopMain main;
 	private Plugin plugin;
 	
 	public FilesManager(OpsyStopMain main)
 	{
-		this.main = main;
-		this.plugin = this.main.getPlugin();
+		this.plugin = main.getPlugin();
 	}
 	
 	//region Configs File (Creator/Getter)
