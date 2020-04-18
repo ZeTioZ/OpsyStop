@@ -1,0 +1,15 @@
+# Default stop message when no message is set:
+default-stop-message:
+  - "&2The server has been &cshutdown&2!"
+  - "&2For: {reason}"
+  - "&2Waiting time: &d{time} minute(s)"
+
+# Default stop time in minutes when no time is set
+default-stop-time: 1
+
+default-reason: "&cNo Reason"
+
+custom-stop-message:
+  - "&2The server has been &cshutdown&2!"
+  - "&2For: &c{reason}"
+  - "&2Waiting time: &d{time} minute(s)"

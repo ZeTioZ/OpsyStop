@@ -1,0 +1,15 @@
+prefix: "&8[&7ReynaStop&8] "
+
+help-command:
+  - "&d/opsystop [<time>] [<message>] &c» &2Stop the server with a custom message and a time"
+  - "&d/opsystop help &c» Display this help page"
+  - "&d/opsystop reload &c» Reload the plugin"
+
+reload-command:
+  - "&2Plugin reloaded!"
+
+errors:
+  negative-time:
+    - "&cYou must enter a positive time!"
+  not-enough-permission:
+    - "&cSorry, but you don't have enough permission to do that!"
