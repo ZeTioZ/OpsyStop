@@ -7,7 +7,7 @@ default-stop-message:
 # Default stop time in minutes when no time is set
 default-stop-time: 1
 
-default-reason: "&cNo Reason"
+default-stop-reason: "&cNo Reason"
 
 custom-stop-message:
   - "&2The server has been &cshutdown&2!"
