@@ -37,9 +37,9 @@ public class OpsyStopCommand implements CommandExecutor
 					StringBuilder reasonBuilder = new StringBuilder();
 					for(String line : configsFile.getStringList("default-stop-message"))
 					{
-						line = ChatColor.translateAlternateColorCodes('&', line);
 						line = line.replace("{reason}", String.valueOf(configsFile.getString("default-stop-reason")));
 						line = line.replace("{time}", String.valueOf(configsFile.getInt("default-stop-time")));
+						line = ChatColor.translateAlternateColorCodes('&', line);
 						reasonBuilder.append("\n" + line);
 					}
 					String reason = reasonBuilder.toString().substring(1);
